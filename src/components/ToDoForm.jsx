@@ -1,10 +1,10 @@
 import React from 'react'
 
-export default function ToDoForm(handleSubmit) {
+export default function ToDoForm({handleSubmit}) {
   console.log(handleSubmit)
   return (
     <div>
-        <form id="toDoForm" onSubmit={handleSubmit}>
+        <form action ="" id="toDoForm" onSubmit={handleSubmit}>
 
             <div className="form-group">
             <input
