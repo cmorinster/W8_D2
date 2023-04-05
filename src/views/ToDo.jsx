@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
-import ToDoCard from './ToDoCard';
-import ToDoForm from './ToDoForm';
+import ToDoCard from '../components/ToDoCard';
+import ToDoForm from '../components/ToDoForm';
 
 export default function ToDo() {
     const [tasks, setTasks] = useState([]);
